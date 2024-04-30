@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "data": {
+        "name": "张三",
+        "type": "厨师",
+        "count": "100",
+        "mark": "我叫张三"
+    }
+}

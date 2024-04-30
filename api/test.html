@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../CombineUI/combineUI-2.2.0.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="aaa" style="width:80%">
+    </div>
+</body>
+</html>
+<script type="text/javascript " src="../../CombineUI/_lib/jquery.min.js"></script>
+<script type="text/javascript " src="../../CombineUI/combineUI-2.2.0.js"></script> 
+<script>
+    var doc = {
+        tool: {},
+        list: [
+            { id:"1", type: "TEXT", content: "11111111111111" },
+            { id:"2", type: "TEXT", content: "222222222222" },
+            { id:"3", type: "TEXT", content: "3333333333333" },
+            { id:"4", type: "IMG", width:"100px", height:"100px", content: "444444444444444444" },
+            { id:"5", type: "TEXT", content: "55555555555555" },
+            { id:"6", type: "CODE", lang:"java", content: "6666666666666" },
+            { id:"7", type: "TEXT", content: "7777777777777" },
+            { id:"8", type: "TEXT", content: "8888888888888888888" },
+        ]
+    }
+    var docObj = ui.parts.doc.build(doc);
+    var docHtml = ui.build.buildModule(docObj.config);
+    $("#aaa").html(docHtml);
+</script>

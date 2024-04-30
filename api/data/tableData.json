@@ -1,0 +1,27 @@
+{
+    "success": true,
+    "data": {
+        "page": 2,
+        "maxPage": 20,
+        "data": [
+            {
+                "name": "张三",
+                "type": "厨师",
+                "count": "100",
+                "mark": "我叫张三"
+            },
+            {
+                "name": "李四",
+                "type": "公务员",
+                "count": "88",
+                "mark": "我叫李四"
+            },
+            {
+                "name": "王五",
+                "type": "司机",
+                "count": "200",
+                "mark": "我叫王五"
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+2.0.0   修复若干BUG，优化部分组件
+--------------------------------------------------------------------------------------
+2.1.0   Part-Form：表单元素Key支持a.b的形式，getData返回的对象结构为{ a:{ b:... } }
+        Part-Table：表单表头和内容对其方式可配置，config添加表单表头和内容对其方式默认配置，解决表头和内容左右对齐、居中时不对齐的样式问题
+        Part-Nav：优化导航选择。选择导航时，将gread小于该导航的所有导航取消选择
+        Part-Window：样式优化，修复拖动异常BUG。（灰色背景未实现）
+        Part-tree：样式优化
+        Part-Form：解决ID带“.”，Jqurey查询不到DOM的问题
+        Part-Nav：功能升级。添加img、title配置参数。
+        Part-List：样式优化，进入编辑模式时显示边框
+        Part-Nav：样式优化，下级副导航显示在上级副导航下面。
+        Part-Accordions：新增组件。
+        Module-Form：下拉框数据统一封装到$dict中
+        Module-seach：可自由显示/隐藏
+        Part-window/tabs/list/accordions：构造Body统一封装
+        Part-Screen：新增组件。
+        Module-window：新增Screen窗口。
+        Module-Table：添加自定义列配置。
+--------------------------------------------------------------------------------------
+2.2.0   ALL：CSS颜色调整为蓝色系，将颜色设为公共参数
+        Part-Rotate：新增组件。
+        Part-Doc：新增组件。
+
+
+
